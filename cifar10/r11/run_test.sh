@@ -1,0 +1,15 @@
+python main.py --phase test --gpu '0' --domain gaussian_noise
+python main.py --phase test --gpu '0' --domain shot_noise
+python main.py --phase test --gpu '0' --domain impulse_noise
+python main.py --phase test --gpu '0' --domain defocus_blur
+python main.py --phase test --gpu '0' --domain glass_blur
+python main.py --phase test --gpu '0' --domain motion_blur
+python main.py --phase test --gpu '0' --domain zoom_blur
+python main.py --phase test --gpu '0' --domain snow
+python main.py --phase test --gpu '0' --domain fog
+python main.py --phase test --gpu '0' --domain frost
+python main.py --phase test --gpu '0' --domain brightness
+python main.py --phase test --gpu '0' --domain contrast
+python main.py --phase test --gpu '0' --domain elastic_transform
+python main.py --phase test --gpu '0' --domain pixelate
+python main.py --phase test --gpu '0' --domain jpeg_compression
